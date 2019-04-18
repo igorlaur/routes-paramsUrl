@@ -16,6 +16,7 @@ export default class Routes extends React.Component {
               <li><Link to="/cursos/design">Design</Link></li>
               <li><Link to="/cursos/react">React</Link></li>
             </ul>
+            <Link to="/">Voltar</Link>
           </ul>
 
           <Route exact path="/" component={Home}/>

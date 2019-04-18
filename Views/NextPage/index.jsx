@@ -5,6 +5,7 @@ export default class NextPage extends React.Component {
   render () {
     return (
       <Route>
+        <br/> <br/>
         <p>Seja bem-vindo a nova página</p>
         <Link to="/">Voltar</Link>
       </ Route>
